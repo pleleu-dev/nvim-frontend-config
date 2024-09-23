@@ -5,10 +5,9 @@
 ---@type LazySpec
 return {
   "AstroNvim/astrocommunity",
-  { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.lua" },
+  -- { import = "astrocommunity.editing-support.auto-save-nvim" },
   -- import/override with your plugins folder
   { import = "astrocommunity.completion.copilot-lua-cmp" },
   { import = "astrocommunity.colorscheme.catppuccin" },
-  { import = "astrocommunity.completion.copilot-lua-cmp" },
 }
